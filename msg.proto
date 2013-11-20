@@ -1,0 +1,9 @@
+package Data;
+
+message datatype
+{
+	required int32 port = 1;
+	required string address = 2;	//ip
+	required string str = 3;  //for communication
+	optional fixed64 length = 4;	
+}	
